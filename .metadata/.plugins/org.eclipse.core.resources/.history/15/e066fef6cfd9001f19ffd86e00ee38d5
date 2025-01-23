@@ -49,14 +49,13 @@
                            onclick="return confirm('Tem certeza que deseja excluir este serviço?')">Deletar</a>
                            
                         <!-- Botão para Enviar E-mail -->
-						<form th:action="@{/enviar-servico-email}" method="get" style="display:inline;"onsubmit="return marcarComoEnviado(this);">
+						<form th:action="@{/enviar-servico-email}" method="get" style="display:inline;">
 						    <!-- Passa o ID do serviço e o e-mail do cliente -->
 						    <input type="hidden" name="id" th:value="${servico.id}">
 						    <input type="hidden" name="to" th:value="${servico.cliente.email}">
 						    
 						    <!-- Botão para Enviar o E-mail -->
-						    
-						    <button type="submit" class="btn btn-primary btn-sm" th:id="'enviarEmailButton-' + ${servico.id}">Enviar E-mail</button>
+						    <button type="submit" id="enviarEmailButton" class="btn btn-primary btn-sm">Enviar E-mail</button>
 						</form>
                     </td>
                 </tr>
@@ -103,34 +102,40 @@
         });
     });
     
-</script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll("button[id^='enviarEmailButton-']").forEach(botao => {
-        let servicoId = botao.id.split('-')[1]; // Pega o ID do serviço
-        if (localStorage.getItem("emailEnviado-" + servicoId)) {
-            botao.textContent = "Enviado";
-            botao.classList.remove("btn-primary");
-            botao.classList.add("btn-success");
-            botao.disabled = true;
-        }
-    });
-});
-
-function marcarComoEnviado(form) {
-    let botao = form.querySelector("button");
-    let servicoId = botao.id.split('-')[1]; // Pega o ID do serviço
-    localStorage.setItem("emailEnviado-" + servicoId, "true"); // Salva no LocalStorage
-
-    botao.textContent = "Enviado";
-    botao.classList.remove("btn-primary");
-    botao.classList.add("btn-success");
-    botao.disabled = true; // Evita múltiplos envios
     
-    return true; // Permite o envio do formulário
-}
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    // Função para enviar o formulário via AJAX
+    function enviarEmailAjax(event) {
+        event.preventDefault(); // Impede o envio padrão do formulário
+
+        var formData = $(event.target).serialize(); // Obtém os dados do formulário
+
+        // Faz a requisição AJAX para enviar o e-mail
+        $.ajax({
+            url: '/enviar-servico-email',
+            method: 'GET', // Ou 'POST', conforme o caso
+            data: formData,
+            success: function(response) {
+                // Muda a cor do botão após o envio do e-mail
+                mudarCorDoBotao();
+            },
+            error: function() {
+                alert('Erro ao enviar o e-mail');
+            }
+        });
+    }
+
+    // Função para mudar a cor do botão
+    function mudarCorDoBotao() {
+        let botao = document.getElementById("enviarEmailButton");
+        botao.classList.remove("btn-primary");
+        botao.classList.add("btn-success");
+        botao.innerText = "E-mail Enviado!";
+    }
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
