@@ -105,7 +105,8 @@
             }
     
             if (emoji) {
-                cell.innerHTML = `<span style="white-space: nowrap; font-weight: bold;">${emoji} ${cell.textContent.trim()}</span>`;
+                cell.innerHTML = `${emoji} ${cell.textContent.trim()}`;
+                cell.style.fontWeight = "bold";
             }
         });
     });

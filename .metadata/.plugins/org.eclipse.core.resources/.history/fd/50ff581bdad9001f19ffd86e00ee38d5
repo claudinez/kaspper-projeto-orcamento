@@ -47,25 +47,22 @@
                     <td th:text="${servico.valorTotalProjeto}"></td>
                     <td th:text="${servico.status}"></td>
                     <td th:text="${servico.cliente.nome}"></td>
-                    
                     <td>
-                    	<div style="display: flex; gap: 5px; white-space: nowrap;">
-	                        <!-- Botões para editar e excluir -->
-	                        <a th:href="@{/servicos/editar/{id}(id=${servico.id})}" class="btn btn-warning btn-sm">Editar</a>
-	                        <a th:href="@{/servicos/deletar/{id}(id=${servico.id})}" class="btn btn-danger btn-sm" 
-	                           onclick="return confirm('Tem certeza que deseja excluir este serviço?')">Deletar</a>
-	                           
-	                        <!-- Botão para Enviar E-mail -->
-							<form th:action="@{/enviar-servico-email}" method="get" style="display:inline;"onsubmit="return marcarComoEnviado(this);">
-							    <!-- Passa o ID do serviço e o e-mail do cliente -->
-							    <input type="hidden" name="id" th:value="${servico.id}">
-							    <input type="hidden" name="to" th:value="${servico.cliente.email}">
-							    
-							    <!-- Botão para Enviar o E-mail -->
-							    
-							    <button type="submit" class="btn btn-primary btn-sm" style="min-width: 100px;" th:id="'enviarEmailButton-' + ${servico.id}">Enviar E-mail</button>
-							</form>
-						</div>
+                        <!-- Botões para editar e excluir -->
+                        <a th:href="@{/servicos/editar/{id}(id=${servico.id})}" class="btn btn-warning btn-sm">Editar</a>
+                        <a th:href="@{/servicos/deletar/{id}(id=${servico.id})}" class="btn btn-danger btn-sm" 
+                           onclick="return confirm('Tem certeza que deseja excluir este serviço?')">Deletar</a>
+                           
+                        <!-- Botão para Enviar E-mail -->
+						<form th:action="@{/enviar-servico-email}" method="get" style="display:inline;"onsubmit="return marcarComoEnviado(this);">
+						    <!-- Passa o ID do serviço e o e-mail do cliente -->
+						    <input type="hidden" name="id" th:value="${servico.id}">
+						    <input type="hidden" name="to" th:value="${servico.cliente.email}">
+						    
+						    <!-- Botão para Enviar o E-mail -->
+						    
+						    <button type="submit" class="btn btn-primary btn-sm" th:id="'enviarEmailButton-' + ${servico.id}">Enviar E-mail</button>
+						</form>
                     </td>
                 </tr>
             </tbody>
@@ -105,7 +102,8 @@
             }
     
             if (emoji) {
-                cell.innerHTML = `<span style="white-space: nowrap; font-weight: bold;">${emoji} ${cell.textContent.trim()}</span>`;
+                cell.innerHTML = `${emoji} ${cell.textContent.trim()}`;
+                cell.style.fontWeight = "bold";
             }
         });
     });
