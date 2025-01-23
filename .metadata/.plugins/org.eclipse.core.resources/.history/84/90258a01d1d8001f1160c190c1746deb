@@ -1,0 +1,24 @@
+package com.example.sistema_servicos.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.sistema_servicos.model.EmailService;
+
+@RestController
+public class EnviaController {
+
+    @Autowired
+    private EmailService emailService;
+
+    
+    public class EmailService {
+        public void enviarEmail(String nome, String to, String content, double valor) {
+            // Lógica para enviar o e-mail
+            System.out.println("E-mail enviado para " + to + " com o assunto: " + content);
+        }
+    }
+}

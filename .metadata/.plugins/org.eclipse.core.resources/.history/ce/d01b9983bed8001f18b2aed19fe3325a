@@ -1,0 +1,22 @@
+package com.example.sistema_servicos.controller;
+
+import com.example.sistema_servicos.model.EnviaService;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class EnviaController {
+
+    private final EnviaService enviaService;
+
+    public EnviaController(EnviaService enviaService) {
+        this.enviaService = enviaService;
+    }
+
+    public void enviarTeste() {
+        String destinatario = "email_me@example.com";
+        String assunto = "Teste de Envio de E-mail";
+        String corpo = "Olá, este é um e-mail de teste!";
+
+        enviaService.enviarEmail(destinatario, assunto, corpo);
+    }
+}

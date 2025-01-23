@@ -1,0 +1,38 @@
+package com.example.sistema_servicos.controller;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.sistema_servicos.model.EmailService;
+
+@Controller
+public class EnviaController {
+
+    private final EmailService emailService;
+
+    @Autowired
+    public EnviaController(EmailService emailService) {
+        this.emailService = emailService;
+    }
+
+    @PostMapping("/enviar-email")
+    public String enviarOrcamento(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        String destinatario = request.getParameter("destinatario");
+        String assunto = request.getParameter("assunto");
+        String corpo = request.getParameter("corpo");
+
+        try {
+            emailService.enviarEmail(destinatario, assunto, corpo);
+            return "redirect:sucesso"; // Redireciona para a página de sucesso
+        } catch (Exception e) {
+            return "redirect:erro"; // Redireciona para a página de erro
+        }
+    }
+}

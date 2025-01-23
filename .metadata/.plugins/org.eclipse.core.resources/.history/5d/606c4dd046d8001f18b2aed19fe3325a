@@ -1,0 +1,36 @@
+package com.example.sistema_servicos.view;
+
+import javax.swing.*;
+import java.awt.*;
+import com.example.sistema_servicos.controller.EnviaController;
+
+public class TelaEmail {
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Tela de Envio de E-mail");
+
+        // Campos da tela
+        JTextField jTextFieldEmailDestino = new JTextField(20);
+        JTextField jTextFieldAssunto = new JTextField(20);
+        JTextArea jTextAreaMensagem = new JTextArea(5, 20);
+        JButton jButtonEnviar = new JButton("Enviar E-mail");
+
+        // Associa o controlador ao botão
+        jButtonEnviar.addActionListener(new EnviaController(jTextFieldEmailDestino, jTextFieldAssunto, jTextAreaMensagem));
+
+        // Configura o layout da tela
+        frame.setLayout(new FlowLayout());
+        frame.add(new JLabel("E-mail Destino:"));
+        frame.add(jTextFieldEmailDestino);
+        frame.add(new JLabel("Assunto:"));
+        frame.add(jTextFieldAssunto);
+        frame.add(new JLabel("Mensagem:"));
+        frame.add(new JScrollPane(jTextAreaMensagem));
+        frame.add(jButtonEnviar);
+
+        // Configurações do frame
+        frame.setSize(350, 300);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}

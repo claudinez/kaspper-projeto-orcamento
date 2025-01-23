@@ -1,0 +1,23 @@
+package com.example.sistema_servicos.controller;
+
+import org.springframework.web.bind.annotation.*;
+
+import com.example.sistema_servicos.model.EnviaService;
+
+@RestController
+@RequestMapping("/email")
+public class EnviaController {
+    private final EnviaService enviaService;
+
+    public EnviaController() {
+        this.enviaService = new EnviaService();
+    }
+
+    @PostMapping("/enviar")
+    public String enviarEmail(@RequestParam String destinatario,
+                              @RequestParam String assunto,
+                              @RequestParam String mensagem) {
+        enviaService.enviarEmail(destinatario, assunto, mensagem);
+        return "E-mail enviado para: " + destinatario;
+    }
+}

@@ -1,0 +1,21 @@
+package com.example.sistema_servicos.controller;
+
+
+
+import com.example.sistema_servicos.EmailService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EnviaController {
+
+    @Autowired
+    private EmailService emailService;
+
+    @GetMapping("/enviar-emails")
+    public String enviarEmails() {
+        emailService.enviarEmailsParaClientes();
+        return "E-mails enviados com sucesso!";
+    }
+}

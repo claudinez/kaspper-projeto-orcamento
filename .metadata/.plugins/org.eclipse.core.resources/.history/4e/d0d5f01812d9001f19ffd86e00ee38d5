@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Listas de Serviços</title>
+    <!-- Adicionar a referência ao Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <h1 class="mb-4 text-center">Lançamentos Valores de Serviços</h1>
+        
+        <!-- Botão para ir à lista de clientes -->
+	    <div class="mb-3 text-end">
+	        <a th:href="@{/clientes/lista}" class="btn btn-info">Listas de Clientes</a>
+	    </div>
+        
+      <div class="table-responsive"> <!-- Faz a tabela rolar horizontalmente em telas pequenas --> 
+        <table class="table table-bordered table-hover table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Descrição Servico</th>
+                    <th>Linguagem</th>
+                    <th>Valor hora</th>
+                    <th>Duração Projeto</th>
+                    <th>Hora dia</th>
+                    <th>Valor</th>
+                    <th>Status</th>
+                    <th>Cliente</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Itera sobre os serviços e os exibe na tabela -->
+                <tr th:each="servico : ${servicos}">
+                    <td th:text="${servico.id}"></td>
+                    <td th:text="${servico.descricao}"></td>
+                    <td th:text="${servico.linguagem}"></td>
+                    <td th:text="${servico.valorHora}"></td>
+                    <td th:text="${servico.diaTrabalhado}"></td>
+                    <td th:text="${servico.horaDia}"></td>
+                    <td th:text="${servico.valorTotalProjeto}"></td>
+                    <td th:text="${servico.status}"></td>
+                    <td th:text="${servico.cliente.nome}"></td>
+                    <td>
+                        <!-- Botões para editar e excluir -->
+                        <a th:href="@{/servicos/editar/{id}(id=${servico.id})}" class="btn btn-warning btn-sm">Editar</a>
+                        <a th:href="@{/servicos/deletar/{id}(id=${servico.id})}" class="btn btn-danger btn-sm" 
+                           onclick="return confirm('Tem certeza que deseja excluir este serviço?')">Deletar</a>
+                           
+                        <!-- Botão para Enviar E-mail -->
+						<form th:action="@{/enviar-servico-email}" method="post" style="display:inline;" onsubmit=" mudarCorDoBotao()">
+						    <!-- Passa o ID do serviço e o e-mail do cliente -->
+						    <input type="hidden" name="id" th:value="${servico.id}">
+						    <input type="hidden" name="to" th:value="${servico.cliente.email}">
+						    
+						    <!-- Botão para Enviar o E-mail -->
+						    <button type="submit" id="enviarEmailButton" class="btn btn-primary btn-sm">Enviar E-mail</button>
+						</form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let statusCells = document.querySelectorAll("tbody td:nth-child(8)"); // 8ª coluna da tabela
+    
+        statusCells.forEach(cell => {
+            let statusText = cell.textContent.trim().toLowerCase();
+            let emoji = "";
+    
+            switch (statusText) {
+                case "em análise":
+                    emoji = "🔍";
+                    cell.style.color = "#FFC107"; // Amarelo
+                    break;
+                case "urgente":
+                    emoji = "🚨";
+                    cell.style.color = "#DC3545"; // Vermelho
+                    break;
+                case "aprovado":
+                    emoji = "✅";
+                    cell.style.color = "#28A745"; // Verde
+                    break;
+                case "concluído":
+                    emoji = "🎯";
+                    cell.style.color = "#007BFF"; // Azul
+                    break;
+                case "cancelado":
+                    emoji = "❌";
+                    cell.style.color = "#6C757D"; // Cinza
+                    cell.style.textDecoration = "line-through"; // Texto riscado
+                    break;
+            }
+    
+            if (emoji) {
+                cell.innerHTML = `${emoji} ${cell.textContent.trim()}`;
+                cell.style.fontWeight = "bold";
+            }
+        });
+    });
+    
+    // Altera a cor do botão após o envio do e-mail
+    function mudarCorDoBotao() {
+        let botao = document.getElementById("enviarEmailButton");
+        botao.classList.remove("btn-primary");
+        botao.classList.add("btn-success");
+        botao.innerText = "E-mail Enviado!";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+package com.example.sistema_servicos.model;
+
+import java.util.Properties;
+import javax.mail.Authenticator;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+
+import com.example.sistema_servicos.view.*;
+import com.example.sistema_servicos.controller.*;
+import com.example.sistema_servicos.model.*;
+
+public class EnviaService {
+
+    private final String emailRemetente = "seuemail@gmail.com"; // Seu e-mail
+    private final String senha = "suasenha"; // Sua senha (use variáveis de ambiente para segurança)
+
+    public void enviarEmail(String destinatario, String assunto, String corpo) {
+        Properties props = new Properties();
+        props.put("mail.smtp.host", "smtp.gmail.com");
+        props.put("mail.smtp.port", "587");
+        props.put("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.enable", "true");
+
+        Authenticator auth = new Authenticator() {
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(emailRemetente, senha);
+            }
+        };
+
+        Session session = Session.getInstance(props, auth);
+        TelaEmail.sendEmail(session, destinatario, assunto, corpo);
+    }
+}

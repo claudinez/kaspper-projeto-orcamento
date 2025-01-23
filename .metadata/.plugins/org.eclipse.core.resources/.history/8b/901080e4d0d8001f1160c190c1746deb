@@ -1,0 +1,29 @@
+package com.example.sistema_servicos.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.sistema_servicos.model.EmailService;
+
+@RestController
+public class EnviaController {
+
+    @Autowired
+    private EmailService emailService;
+
+    @GetMapping("/enviar")
+    public String enviarEmails() {
+        emailService.enviarEmailsParaClientes();
+        return "E-mails enviados com sucesso!";
+    }
+    
+    @PostMapping("/enviar")
+    public String enviarEmail(@RequestParam String to, @RequestParam String subject, @RequestParam String content) {
+        // Aqui você pode usar o serviço de e-mail para enviar mensagens específicas
+        emailService.enviarEmail("Cliente", to, content, 0.0); // Ajuste conforme necessário
+        return "E-mail enviado para: " + to;
+    }
+}

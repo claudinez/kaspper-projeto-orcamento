@@ -1,0 +1,42 @@
+package com.example.sistema_servicos.view;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Component;
+
+import javax.swing.*;
+import java.awt.*;
+import com.example.sistema_servicos.controller.EnviaController;
+
+@SpringBootApplication
+public class TelaEmail {
+
+    public static void main(String[] args) {
+        ApplicationContext context = SpringApplication.run(TelaEmail.class, args);
+
+        JFrame frame = new JFrame("Tela de Envio de E-mail");
+
+        JTextField jTextFieldEmailDestino = new JTextField(20);
+        JTextField jTextFieldAssunto = new JTextField(20);
+        JTextArea jTextAreaMensagem = new JTextArea(5, 20);
+        JButton jButtonEnviar = new JButton("Enviar E-mail");
+
+        // Obtendo o bean do Spring
+        EnviaController enviaController = context.getBean(EnviaController.class);
+        jButtonEnviar.addActionListener(enviaController);
+
+        frame.setLayout(new FlowLayout());
+        frame.add(new JLabel("E-mail Destino:"));
+        frame.add(jTextFieldEmailDestino);
+        frame.add(new JLabel("Assunto:"));
+        frame.add(jTextFieldAssunto);
+        frame.add(new JLabel("Mensagem:"));
+        frame.add(new JScrollPane(jTextAreaMensagem));
+        frame.add(jButtonEnviar);
+
+        frame.setSize(350, 300);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}

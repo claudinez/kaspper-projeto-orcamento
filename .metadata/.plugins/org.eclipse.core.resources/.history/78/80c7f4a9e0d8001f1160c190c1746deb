@@ -1,0 +1,22 @@
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpSession;
+
+@WebServlet("/enviarOrcamento")
+public class EnviaController extends HttpServlet {
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // Recuperar dados do formulário (se houver)
+        String destinatario = request.getParameter("destinatario");
+        String assunto = "Orçamento";
+        String corpo = "Conteúdo do orçamento"; // Substituir pelo conteúdo dinâmico do orçamento
+
+        // Chamar o serviço de envio de e-mail
+        EmailService emailService = new EmailService();
+        emailService.enviarEmail(destinatario, assunto, corpo);
+
+        // Redirecionar para uma página de confirmação ou exibir uma mensagem
+        response.sendRedirect("sucesso.html");
+    }
+}

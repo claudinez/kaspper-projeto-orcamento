@@ -1,0 +1,33 @@
+package com.example.sistema_servicos.controller;
+
+
+import com.example.sistema_servicos.model.EmailService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import javax.mail.MessagingException;
+import java.util.Map;
+
+@RestController
+@RequestMapping("/email")
+public class EmailController {
+
+    @Autowired
+    private EmailService emailService;
+
+    @PostMapping("/enviar")
+    public String enviarEmail(@RequestBody Map<String, String> request) {
+        String emailRemetente = "seuemail@gmail.com";  // E-mail de autenticação
+        String senhaRemetente = "suasenha";            // Senha de autenticação
+        String destinatario = request.get("destinatario");
+        String assunto = request.get("assunto");
+        String mensagem = request.get("mensagem");
+
+        try {
+            emailService.enviarEmail(emailRemetente, senhaRemetente, destinatario, assunto, mensagem);
+            return "E-mail enviado com sucesso!";
+        } catch (MessagingException e) {
+            return "Erro ao enviar e-mail: " + e.getMessage();
+        }
+    }
+}

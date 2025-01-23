@@ -1,0 +1,16 @@
+package com.example.sistema_servicos.controller;
+
+import com.journaldev.mail.service.EnviaService;
+
+public class EnviaController {
+
+    public static void main(String[] args) {
+        // Exemplo de envio de e-mail
+        String destinatario = "email_me@example.com";
+        String assunto = "Teste de Envio de E-mail";
+        String corpo = "Olá, este é um e-mail de teste!";
+
+        EnviaService service = new EnviaService();
+        service.enviarEmail(destinatario, assunto, corpo);
+    }
+}

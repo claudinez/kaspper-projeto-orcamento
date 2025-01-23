@@ -1,0 +1,31 @@
+package com.example.sistema_servicos.controller;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.example.sistema_servicos.model.EmailService;
+
+@Controller
+public class EnviaController {
+
+    @Autowired
+    private EmailService emailService;
+
+    @PostMapping("/enviar-email")
+    public String enviarEmail(
+            @RequestParam("to") String para,
+            @RequestParam("subject") String assunto,
+            @RequestParam("content") String conteudo
+    ) {
+        try {
+            emailService.enviarEmail(para, assunto, conteudo);
+            return "redirect:/lista?emailSucesso=true"; // Redireciona para a lista com uma mensagem de sucesso
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "redirect:/lista?emailErro=true"; // Redireciona para a lista com uma mensagem de erro
+        }
+    }
+}

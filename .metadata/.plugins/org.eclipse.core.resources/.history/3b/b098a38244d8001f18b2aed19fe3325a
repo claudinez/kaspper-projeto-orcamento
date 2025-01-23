@@ -1,0 +1,27 @@
+package com.example.sistema_servicos.controller;
+
+import com.example.sistema_servicos.model.EmailService;
+import javax.swing.*;
+import javax.mail.MessagingException;
+
+public class EmailController {
+
+    private EmailService emailService = new EmailService();
+
+    public void enviarEmail(JTextField textFieldEmail, JTextField textFieldAssunto, JTextArea textAreaMensagem) {
+        String emailRemetente = "andrade.claudinez@gmail.com"; // Insira o e-mail de autenticação
+        String senhaRemetente = "C!@159753"; // Insira a senha de autenticação
+
+        String destinatario = textFieldEmail.getText();
+        String assunto = textFieldAssunto.getText();
+        String mensagem = textAreaMensagem.getText();
+
+        try {
+            emailService.enviarEmail(emailRemetente, senhaRemetente, destinatario, assunto, mensagem);
+            JOptionPane.showMessageDialog(null, "E-mail enviado com sucesso!");
+        } catch (MessagingException e) {
+            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Erro ao enviar o e-mail: " + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+}

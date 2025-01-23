@@ -1,0 +1,102 @@
+package com.example.sistema_servicos.model;
+
+
+import java.sql.*;
+import java.util.Properties;
+import jakarta.mail.*;
+import jakarta.mail.internet.*;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmailService {
+
+    // Configuração do banco de dados
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/dborcamento";
+    private static final String DB_USER = "root"; // Altere para o seu usuário
+    private static final String DB_PASSWORD = ""; // Altere para sua senha
+
+    // Configuração do servidor de e-mail
+    private static final String SMTP_HOST = "smtp.gmail.com";
+    private static final String SMTP_PORT = "587";
+    private static final String EMAIL_USER = "andrade.claudinez@gmail.com";
+    private static final String EMAIL_PASSWORD = "sua-senha-ou-senha-app";
+
+    public void enviarEmailsParaClientes() {
+        try {
+            // Conexão com o banco de dados
+            Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+
+            // Query para buscar clientes e serviços
+            String query = """
+                SELECT 
+                    c.nome, c.email, s.descricao, s.valor_total_projeto
+                FROM 
+                    clientes c
+                JOIN 
+                    servicos s ON c.id = s.cliente_id
+                WHERE 
+                    c.status = 'ativo';
+            """;
+
+            Statement stmt = connection.createStatement();
+            ResultSet resultSet = stmt.executeQuery(query);
+
+            // Loop por cada cliente para enviar e-mails
+            while (resultSet.next()) {
+                String nome = resultSet.getString("nome");
+                String email = resultSet.getString("email");
+                String descricaoServico = resultSet.getString("descricao");
+                double valorTotalProjeto = resultSet.getDouble("valor_total_projeto");
+
+                // Enviar o e-mail
+                enviarEmail(nome, email, descricaoServico, valorTotalProjeto);
+            }
+
+            // Fechar conexão
+            resultSet.close();
+            stmt.close();
+            connection.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void enviarEmail(String nome, String email, String descricaoServico, double valorTotalProjeto) {
+        Properties props = new Properties();
+        props.put("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.enable", "true");
+        props.put("mail.smtp.host", SMTP_HOST);
+        props.put("mail.smtp.port", SMTP_PORT);
+
+        Session session = Session.getInstance(props, new Authenticator() {
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(EMAIL_USER, EMAIL_PASSWORD);
+            }
+        });
+
+        try {
+            Message message = new MimeMessage(session);
+            message.setFrom(new InternetAddress(EMAIL_USER));
+            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email));
+            message.setSubject("Detalhes do Serviço - " + descricaoServico);
+
+            String emailBody = String.format(
+                "Olá %s,\n\n" +
+                "Segue os detalhes do serviço solicitado:\n" +
+                "Serviço: %s\n" +
+                "Valor Total do Projeto: R$ %.2f\n\n" +
+                "Obrigado por utilizar nossos serviços!\n\nAtenciosamente,\nEquipe XYZ",
+                nome, descricaoServico, valorTotalProjeto
+            );
+
+            message.setText(emailBody);
+            Transport.send(message);
+
+            System.out.println("E-mail enviado para: " + email);
+
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        }
+    }
+}

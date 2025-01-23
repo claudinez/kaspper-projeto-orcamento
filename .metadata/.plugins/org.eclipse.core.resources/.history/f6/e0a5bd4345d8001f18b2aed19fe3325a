@@ -1,0 +1,42 @@
+package com.example.sistema_servicos.controller;
+
+
+
+
+import javax.swing.*;
+
+import com.example.sistema_servicos.controller.*;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class EnviarController implements ActionListener {
+
+    private JTextField jTextFieldEmailDestino;
+    private JTextField jTextFieldAssunto;
+    private JTextArea jTextAreaMensagem;
+
+    public EnviarController(JTextField emailDestino, JTextField assunto, JTextArea mensagem) {
+        this.jTextFieldEmailDestino = emailDestino;
+        this.jTextFieldAssunto = assunto;
+        this.jTextAreaMensagem = mensagem;
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent evt) {
+        EmailService emailService = new EmailService();
+        String emailRemetente = "seuemail@gmail.com";  // E-mail de autenticação
+        String senhaRemetente = "suasenha";            // Senha de autenticação
+        String destinatario = jTextFieldEmailDestino.getText();
+        String assunto = jTextFieldAssunto.getText();
+        String mensagem = jTextAreaMensagem.getText();
+
+        try {
+            emailService.enviarEmail(emailRemetente, senhaRemetente, destinatario, assunto, mensagem);
+            JOptionPane.showMessageDialog(null, "E-mail enviado com sucesso!");
+        } catch (Exception e) {
+            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Erro ao enviar o e-mail: " + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+}

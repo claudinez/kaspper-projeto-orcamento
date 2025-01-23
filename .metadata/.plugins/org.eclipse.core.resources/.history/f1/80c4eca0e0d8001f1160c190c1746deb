@@ -1,0 +1,24 @@
+package com.example.sistema_servicos.controller;
+
+
+import com.example.sistema_servicos.EmailService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EnviaController {
+    private final EmailService emailService;
+
+    @Autowired
+    public EnviaController(EmailService emailService) {
+        this.emailService = emailService;
+    }
+
+    @PostMapping("/enviar")
+    public String enviarEmail(@RequestParam String to, @RequestParam String subject, @RequestParam String content) {
+        emailService.enviarEmail("Cliente", to, content, 0.0);
+        return "Email sent to: " + to;
+    }
+}
