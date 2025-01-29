@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Listas de Serviços</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Adicionar a referência ao Bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+   
+    <!-- jQuery -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables CSS -->
+   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    
+</head>
+<body>
+
+    <div class="container-fluid mt-5">
+    
+        <div class="text-center mb-4">
+	        <h1 class="display-4 text-primary">Lançamentos de Valores de Serviços</h1>
+	        <p class="lead text-muted">Gerencie os lançamentos de serviços com facilidade</p>
+    	</div>
+        
+        <!-- Botão para ir à lista de clientes -->
+        
+	    <div class="mb-3 text-end">
+    		<a th:href="@{/clientes/lista}" class="btn btn-info btn-lg"><i class="bi bi-person"></i> Listas de Clientes</a>
+		</div>
+        
+      <div class="table-responsive"> <!-- Faz a tabela rolar horizontalmente em telas pequenas --> 
+        <table class="table table-bordered table-hover table-striped table-sm">
+            <thead class="table-dark">
+                <tr>
+			        <th onclick="sortTable(0)">ID</th>
+			        <th onclick="sortTable(1)">Descrição Serviço</th>
+			        <th onclick="sortTable(2)">Linguagem</th>
+			        <th onclick="sortTable(3)">Valor hora</th>
+			        <th onclick="sortTable(4)">Duração Projeto</th>
+			        <th onclick="sortTable(5)">Hora dia</th>
+			        <th onclick="sortTable(6)">Valor</th>
+			        <th onclick="sortTable(7)">Status</th>
+			        <th onclick="sortTable(8)">Cliente</th>
+			        <th>Ações</th>
+			    </tr>
+            </thead>
+            <tbody>
+                <!-- Itera sobre os serviços e os exibe na tabela -->
+                <tr th:each="servico : ${servicos}">
+                    <td th:text="${servico.id}"></td>
+                    <td th:text="${servico.descricao}"></td>
+                    <td th:text="${servico.linguagem}"></td>
+                    <td th:text="${servico.valorHora}"></td>
+                    <td th:text="${servico.diaTrabalhado}"></td>
+                    <td th:text="${servico.horaDia}"></td>
+                    <td th:text="${servico.valorTotalProjeto}"></td>
+                    <td th:text="${servico.status}"></td>
+                    <td th:text="${servico.cliente.nome}"></td>
+                    
+                    <td>
+                    	 <div class="d-flex gap-2">
+	                        <!-- Botões para editar e excluir -->
+	                        <a th:href="@{/servicos/editar/{id}(id=${servico.id})}" class="btn btn-warning btn-sm">
+	                           <i class="bi bi-pencil"></i>Editar
+	                        </a>
+	                           
+	                        <a th:href="@{/servicos/deletar/{id}(id=${servico.id})}" class="btn btn-danger btn-sm" 
+	                           onclick="return confirm('Tem certeza que deseja excluir este serviço?')">
+	                           <i class="bi bi-trash"></i> Deletar
+	                        </a>
+	                           
+	                        <!-- Botão para Enviar E-mail -->
+							<form th:action="@{/enviar-servico-email}" method="get" style="display:inline;" onsubmit="return marcarComoEnviado(this);">
+							    <!-- Passa o ID do serviço e o e-mail do cliente -->
+							    <input type="hidden" name="id" th:value="${servico.id}">
+							    <input type="hidden" name="to" th:value="${servico.cliente.email}">
+							    
+							    
+							    <!-- Botão para Enviar o E-mail -->
+							    
+							    <button type="submit" class="btn btn-primary btn-sm btn-email"  th:id="'enviarEmailButton-' + ${servico.id}">
+							   		 <i class="bi bi-envelope"></i> Enviar E-mail
+							    </button>
+							    
+							</form>
+						</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let statusCells = document.querySelectorAll("tbody td:nth-child(8)"); // 8ª coluna da tabela
+    
+        statusCells.forEach(cell => {
+            let statusText = cell.textContent.trim().toLowerCase();
+            let emoji = "";
+    
+            switch (statusText) {
+                case "em análise":
+                    emoji = "🔍";
+                    cell.style.color = "#FFC107"; // Amarelo
+                    break;
+                case "urgente":
+                    emoji = "🚨";
+                    cell.style.color = "#DC3545"; // Vermelho
+                    break;
+                case "aprovado":
+                    emoji = "✅";
+                    cell.style.color = "#28A745"; // Verde
+                    break;
+                case "concluído":
+                    emoji = "🎯";
+                    cell.style.color = "#007BFF"; // Azul
+                    break;
+                case "cancelado":
+                    emoji = "❌";
+                    cell.style.color = "#6C757D"; // Cinza
+                    cell.style.textDecoration = "line-through"; // Texto riscado
+                    break;
+            }
+    
+            if (emoji) {
+                cell.innerHTML = `<span style="white-space: nowrap; font-weight: bold;">${emoji} ${cell.textContent.trim()}</span>`;
+            }
+        });
+    });
+    
+</script>
+
+<script>
+        // Inicialização do DataTables
+		  $(document).ready(function () {
+		    let table = $('.table').DataTable();
+		    table.destroy(); // Destrói a instância existente
+		    $('.table').DataTable({
+		        language: {
+		            url: "//cdn.datatables.net/plug-ins/1.13.6/i18n/Portuguese-Brasil.json"
+		        }
+		    });
+		});
+        // Controle do Modal de Exclusão
+        document.addEventListener("DOMContentLoaded", function () {
+            let deleteButton = document.getElementById("confirmDeleteButton");
+            let modal = document.getElementById("confirmDeleteModal");
+
+            modal.addEventListener('show.bs.modal', function (event) {
+                let button = event.relatedTarget; // Botão que abriu o modal
+                let serviceId = button.getAttribute('data-id');
+                
+                deleteButton.onclick = function () {
+                    window.location.href = '/servicos/deletar/' + serviceId; // Redireciona para o link de exclusão
+                };
+            });
+        });
+
+// Verificar e Alterar Status do Botão de E-mail
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll("button[id^='enviarEmailButton-']").forEach(botao => {
+                let servicoId = botao.id.split('-')[1];
+                
+                if (localStorage.getItem("emailEnviado-" + servicoId)) {
+                    botao.textContent = "Enviado";
+                    botao.classList.remove("btn-primary");
+                    botao.classList.add("btn-success");
+                    botao.disabled = true;
+                }
+            });
+        });
+
+        function marcarComoEnviado(form) {
+            let botao = form.querySelector("button");
+            let servicoId = botao.id.split('-')[1];
+            localStorage.setItem("emailEnviado-" + servicoId, "true");
+
+            botao.textContent = "Enviado";
+            botao.classList.remove("btn-primary");
+            botao.classList.add("btn-success");
+            botao.disabled = true;
+
+            return true;
+        }
+    </script>
+
+<script>
+// Inicialização do DataTables
+
+$(document).ready(function () {
+    $('.table').DataTable({
+        language: {
+            url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/Portuguese-Brasil.json"
+        },
+        paging: true,
+        searching: true,
+        info: true,
+        lengthChange: true,
+        destroy: true // Garante que a tabela seja reinicializada sem erros
+    });
+});
+
+function sortTable(columnIndex) {
+    let table = document.querySelector('.table tbody');
+    let rows = Array.from(table.rows);
+
+    let sortedRows = rows.sort((a, b) => {
+        let aText = a.cells[columnIndex].innerText.trim().toLowerCase();
+        let bText = b.cells[columnIndex].innerText.trim().toLowerCase();
+
+        if (!isNaN(aText) && !isNaN(bText)) {
+            return parseFloat(aText) - parseFloat(bText); // Ordena números
+        }
+        return aText.localeCompare(bText); // Ordena texto
+    });
+
+    sortedRows.forEach(row => table.appendChild(row));
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

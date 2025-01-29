@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Clientes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Adicionar a referência ao Bootstrap -->
+   		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+	
+	
 </head>
 <body>
-<div class="container mt-5">
-    <h1 class="text-center mb-4">Lista de Cliente</h1>
+<div class="container-fluid p-2">  <!-- Usar container-fluid para ocupar toda a largura -->
+    <div class="text-center mb-3">
+        <h1 class="display-6 text-primary">Lista de Clientes</h1>
+        <p class="lead text-muted">Gerencie seus clientes de forma rápida e fácil</p>
+    </div> 
     <div class="table-responsive"> <!-- Faz a tabela rolar horizontalmente em telas pequenas --> 
-   	 <table class="table table-bordered table-hover table-striped">
+     <table id="clientesTable" class="table table-bordered table-hover table-striped table-sm">
         <thead class="table-dark">
             <tr>
-                <th>Id</th>
-                <th>Nome</th>
-                <th>Sobrenome</th>
-                <th>Email</th>
-                <th>Telefone</th>
-                <th>Status</th>
+                <th onclick="sortTable(0)">Id</th>
+                <th onclick="sortTable(1)">Nome</th>
+                <th onclick="sortTable(2)">Sobrenome</th>
+                <th onclick="sortTable(3)">Email</th>
+                <th onclick="sortTable(4)">Telefone</th>
+                <th onclick="sortTable(5)">Cargo</th>
+                <th onclick="sortTable(6)">Status</th>
+                <th onclick="sortTable(7)">Data Abertura</th>
                 <th>Ações</th>
             </tr>
         </thead>
@@ -29,26 +40,98 @@
                 <td th:text="${cliente.sobrenome}"></td>
                 <td th:text="${cliente.email}"></td>
                 <td th:text="${cliente.telefone}"></td>
+                <td th:text="${cliente.cargo}"></td>
                 <td th:text="${cliente.status}"></td>
+                <td th:with="formattedDate=${#temporals.format(cliente.dataCriacao, 'dd/MM/yyyy')}"
+    				th:text="${formattedDate}"></td>
                 <td>
                 
-                  
-                   
-                    <!-- Botão deletar -->
-                    <a th:href="@{/clientes/deletar/{id}(id=${cliente.id})}" class="btn btn-sm btn-danger" 
-                       onclick="return confirm('Deseja deletar este cliente?')">Deletar</a>
+						<!-- Botão de Deletar com ícone -->
+						<a th:href="@{/clientes/deletar/{id}(id=${cliente.id})}" class="btn btn-sm btn-danger" aria-label="Deletar cliente">
+						    <i class="bi bi-trash"></i> Deletar
+						</a>
                 </td>
             </tr>
         </tbody>
     </table>
-	    <div class="d-flex justify-content-between">
-	        <!--  <a href="/clientes/novo" class="btn btn-success">Novo Cliente</a> -->
-	        
-	         <!-- Botão de Voltar para Lista de Serviços -->
-	        <a th:href="@{/servicos/lista}" class="btn btn-secondary">Voltar para Serviços</a>
-	    </div>
+  </div> 
+    
+    <div class="d-flex justify-content-between mt-3">
+        <!-- Botão de Voltar para Serviços -->
+        <a th:href="@{/servicos/lista}" class="btn btn-lg btn-secondary text-white">
+            <i class="bi bi-arrow-left-circle"></i> Voltar para Serviços
+        </a>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<script>
+
+let sortDirections = {}; // Armazena o estado da ordenação para cada coluna
+
+function sortTable(columnIndex) {
+    let table = document.querySelector('.table tbody');
+    let rows = Array.from(table.rows);
+
+    // Define a ordem inicial como crescente, se não houver definição anterior
+    sortDirections[columnIndex] = !sortDirections[columnIndex];
+
+    let sortedRows = rows.sort((a, b) => {
+        let aText = a.cells[columnIndex].innerText.trim().toLowerCase();
+        let bText = b.cells[columnIndex].innerText.trim().toLowerCase();
+
+        if (!isNaN(aText) && !isNaN(bText)) {
+            return sortDirections[columnIndex] ? (aText - bText) : (bText - aText);
+        }
+
+        return sortDirections[columnIndex] ? aText.localeCompare(bText) : bText.localeCompare(aText);
+    });
+
+    sortedRows.forEach(row => table.appendChild(row));
+}
+
+</script>
+
+<script>
+$(document).ready(function () {
+    $('#clientesTable').DataTable({
+        language: {
+            url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/Portuguese-Brasil.json",
+            search: "Pesquisar:",  // Traduz o texto da pesquisa
+            lengthMenu: "Exibir _MENU_ registros por página", // Traduz o menu de quantidade de registros
+            info: "Mostrando _START_ até _END_ de _TOTAL_ registros", // Traduz a informação sobre os registros
+            infoEmpty: "Mostrando 0 até 0 de 0 registros", // Quando não há registros
+            infoFiltered: "(filtrado de _MAX_ registros)", // Quando a pesquisa filtra os resultados
+            paginate: {
+            previous: "Anterior", // Traduz o botão de página anterior
+            next: "Próximo" // Traduz o botão de página seguinte
+            }
+        },
+        paging: true,
+        searching: true,
+        info: true,
+        lengthChange: true,
+        destroy: true,
+        order: [],  // Desabilitar a ordenação inicial
+        dom: 
+            '<"d-flex justify-content-between mb-3"' +
+                '<"length-container col-auto"l>' +
+                '<"search-container col-auto"f>' +
+            '>' +
+            '<"row"' +
+                '<"col-12"tr>' +
+            '>' +
+            '<"row mt-3"' + 
+                '<"col-md-6"i>' + 
+                '<"col-md-6 text-end"p>' + 
+            '>'
+    });
+});
+
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

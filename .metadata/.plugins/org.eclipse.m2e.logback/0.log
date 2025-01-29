@@ -1423,3 +1423,693 @@
 2025-01-23 19:38:17,859 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-01-23 19:38:17,864 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-01-23 19:38:17,874 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-23 19:42:29,649 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-23 19:42:29,654 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-23 19:42:29,663 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 13:57:24,133 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 13:57:24,139 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 13:57:24,149 [Worker-243: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 14:01:36,669 [Worker-253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 14:01:36,675 [Worker-253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 14:01:36,688 [Worker-253: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 14:06:49,553 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 14:06:49,707 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 14:06:49,718 [Worker-255: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 14:38:56,928 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 14:38:56,934 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-01-24 14:38:56,946 [Worker-260: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 14:49:45,787 [Worker-268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 14:49:45,795 [Worker-268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 14:49:45,807 [Worker-268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 14:51:27,747 [Worker-268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 14:51:27,751 [Worker-268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 14:51:27,757 [Worker-268: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 14:58:04,214 [Worker-271: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 14:58:04,218 [Worker-271: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 14:58:04,226 [Worker-271: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 15:02:07,463 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:391) - ... Waiting for all tasks ending
+2025-01-24 15:02:07,466 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:397) - Closing all component containers
+2025-01-24 15:02:07,471 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:403) - Closing FileSystemHelper
+2025-01-24 15:02:07,474 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:409) - ... Waiting for all tasks ending before shutting down the BackgroundExecutor
+2025-01-24 15:02:07,475 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:414) - Shutting down BackgroundExecutor
+2025-01-24 15:02:07,477 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
+2025-01-24 15:02:07,480 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
+2025-01-24 15:02:07,492 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
+2025-01-24 15:05:20,481 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:368) - Instantiated org.burningwave.core.SLF4JManagedLoggerRepository
+2025-01-24 15:05:20,490 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:369) - 
+
+	Configuration values for static components:
+
+		background-executor.all-tasks-monitoring.enabled=\
+			true
+		background-executor.all-tasks-monitoring.interval=\
+			30000
+		background-executor.all-tasks-monitoring.logger.enabled=\
+			false
+		background-executor.all-tasks-monitoring.minimum-elapsed-time-to-consider-a-task-as-probable-dead-locked=\
+			300000
+		background-executor.all-tasks-monitoring.probable-dead-locked-tasks-handling.policy=\
+			log only
+		background-executor.queued-task-executor[0].name=\
+			Low priority tasks
+		background-executor.queued-task-executor[0].priority=\
+			1
+		background-executor.queued-task-executor[1].name=\
+			Normal priority tasks
+		background-executor.queued-task-executor[1].priority=\
+			5
+		background-executor.queued-task-executor[2].name=\
+			High priority tasks
+		background-executor.queued-task-executor[2].priority=\
+			10
+		background-executor.task-creation-tracking.enabled=\
+			${background-executor.all-tasks-monitoring.enabled}
+		banner.additonal-informations=\
+			${Implementation-Title} ${Implementation-Version}
+		banner.additonal-informations.retrieve-from-manifest-file-with-implementation-title=\
+			Burningwave Core
+		banner.file=\
+			org/burningwave/banner.bwb
+		banner.hide=\
+			true
+		buffer-handler.default-allocation-mode=\
+			ByteBuffer::allocateDirect
+		buffer-handler.default-buffer-size=\
+			1024
+		group-name-for-named-elements=\
+			Burningwave
+		iterable-object-helper.default-values-separator=\
+			;
+		iterable-object-helper.parallel-iteration.applicability.default-minimum-collection-size=\
+			2
+		iterable-object-helper.parallel-iteration.applicability.max-runtime-thread-count-threshold=\
+			autodetect
+		iterable-object-helper.parallel-iteration.applicability.output-collection-enabled-types=\
+			java.util.concurrent.ConcurrentHashMap$CollectionView;\
+			java.util.Collections$SynchronizedCollection;\
+			java.util.concurrent.CopyOnWriteArrayList;\
+			java.util.concurrent.CopyOnWriteArraySet;\
+			java.util.concurrent.BlockingQueue;\
+			java.util.concurrent.ConcurrentSkipListSet;\
+			java.util.concurrent.ConcurrentSkipListMap$EntrySet;\
+			java.util.concurrent.ConcurrentSkipListMap$KeySet;\
+			java.util.concurrent.ConcurrentSkipListMap$Values;
+		jvm.driver.init=\
+			false
+		managed-logger.repository=\
+			autodetect
+		managed-logger.repository.enabled=\
+			true
+		managed-logger.repository.logging.warn.disabled-for=\
+			org.burningwave.core.assembler.ComponentContainer$ClassLoader;\
+			org.burningwave.core.classes.MemoryClassLoader;\
+			org.burningwave.core.classes.PathScannerClassLoader;
+		modules.export-all-to-all=\
+			true
+		resource-releaser.enabled=\
+			true
+		synchronizer.all-threads-monitoring.enabled=\
+			false
+		synchronizer.all-threads-monitoring.interval=\
+			90000
+		thread-supplier.default-daemon-flag-value=\
+			true
+		thread-supplier.default-thread-priority=\
+			5
+		thread-supplier.max-detached-thread-count=\
+			${thread-supplier.max-poolable-thread-count}
+		thread-supplier.max-detached-thread-count.elapsed-time-threshold-from-last-increase-for-gradual-decreasing-to-initial-value=\
+			30000
+		thread-supplier.max-detached-thread-count.increasing-step=\
+			autodetect
+		thread-supplier.max-poolable-thread-count=\
+			autodetect
+		thread-supplier.poolable-thread-request-timeout=\
+			6000
+
+
+2025-01-24 15:05:20,494 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:127) - default buffer size: 1024 bytes
+2025-01-24 15:05:20,497 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:141) - default allocation mode: ByteBuffer::allocateDirect
+2025-01-24 15:05:20,506 [main] INFO  org.burningwave.core.Cache - (Cache.java:76) - Building cache
+2025-01-24 15:05:20,585 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:443) - org.burningwave.core.assembler.StaticComponentContainer initialized in 0.3521717 seconds
+2025-01-24 15:05:31,652 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-24 15:17:11,048 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 15:17:11,069 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-01-24 15:17:11,087 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 15:21:30,186 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 15:21:30,194 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 15:21:30,211 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:15:17,460 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:15:17,468 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:15:17,481 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:19:00,492 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:19:00,496 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:19:00,504 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:20:37,468 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:20:37,475 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:20:37,484 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:29:24,164 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:29:24,170 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:29:24,181 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:31:06,098 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:31:06,102 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:31:06,112 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:41:17,703 [Worker-38: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:41:17,708 [Worker-38: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:41:17,717 [Worker-38: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:42:55,158 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:42:55,163 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:42:55,172 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:48:44,362 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:48:44,368 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:48:44,377 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:54:25,978 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:54:25,981 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:54:25,988 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 16:56:12,665 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 16:56:12,670 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 16:56:12,678 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 18:47:29,909 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 18:47:29,911 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 18:47:29,917 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 18:49:18,581 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 18:49:18,584 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 18:49:18,589 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 18:50:39,058 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 18:50:39,060 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 18:50:39,066 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 18:51:32,061 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 18:51:32,065 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 18:51:32,072 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 18:57:20,546 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 18:57:20,549 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 18:57:20,563 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:05:21,095 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:05:21,097 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:05:21,103 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:09:19,071 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:09:19,073 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:09:19,079 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:16:04,969 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:16:04,972 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:16:04,981 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:17:01,134 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:17:01,136 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:17:01,140 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:23:18,738 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:23:18,741 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:23:18,746 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:31:24,189 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:31:24,191 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:31:24,197 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:37:42,958 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:37:42,961 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:37:42,965 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:40:36,619 [Worker-82: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:40:36,623 [Worker-82: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:40:36,634 [Worker-82: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:41:43,545 [Worker-81: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:41:43,550 [Worker-81: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:41:43,555 [Worker-81: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:42:30,290 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:42:30,292 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:42:30,296 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:43:20,949 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:43:20,951 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:43:20,956 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:46:02,687 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:46:02,689 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:46:02,693 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:47:32,936 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:47:32,938 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:47:32,942 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:48:23,970 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:48:23,974 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:48:23,980 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:49:57,269 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:49:57,273 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:49:57,280 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:51:48,542 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:51:48,544 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:51:48,550 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:52:58,441 [Worker-85: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:52:58,445 [Worker-85: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:52:58,454 [Worker-85: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 19:56:49,901 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 19:56:49,903 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 19:56:49,909 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:00:18,493 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:00:18,497 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:00:18,502 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:02:19,789 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:02:19,791 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:02:19,795 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:05:52,639 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:05:52,642 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:05:52,646 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:08:49,835 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:08:49,837 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:08:49,841 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:11:04,942 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:11:04,945 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:11:04,949 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:12:12,084 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:12:12,086 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:12:12,091 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:13:25,222 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:13:25,224 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:13:25,228 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:16:38,769 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:16:38,771 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:16:38,777 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-24 20:20:34,097 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-24 20:20:34,099 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-24 20:20:34,104 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:22:17,127 [Worker-591: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:22:17,130 [Worker-591: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:22:17,134 [Worker-591: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:23:18,581 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:23:18,583 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:23:18,587 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:28:43,208 [Worker-593: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:28:43,215 [Worker-593: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:28:43,225 [Worker-593: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:30:45,795 [Worker-593: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:30:45,797 [Worker-593: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:30:45,802 [Worker-593: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:33:20,749 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:33:20,752 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:33:20,757 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:35:21,582 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:35:21,586 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:35:21,597 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:39:21,757 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:39:21,759 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:39:21,764 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:43:05,976 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:43:05,978 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:43:05,982 [Worker-589: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:44:05,872 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:44:05,874 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:44:05,879 [Worker-590: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:52:28,089 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:52:28,091 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:52:28,096 [Worker-599: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 19:58:25,107 [Worker-595: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 19:58:25,113 [Worker-595: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 19:58:25,123 [Worker-595: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:02:48,850 [Worker-595: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 20:02:48,856 [Worker-595: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:02:48,866 [Worker-595: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:11:52,367 [Worker-605: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 20:11:52,369 [Worker-605: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:11:52,373 [Worker-605: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:17:34,492 [Worker-600: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 20:17:34,494 [Worker-600: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:17:34,501 [Worker-600: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:20:11,031 [Worker-607: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 20:20:11,041 [Worker-607: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:20:11,049 [Worker-607: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:23:00,149 [Worker-606: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 20:23:00,151 [Worker-606: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:23:00,155 [Worker-606: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:27:24,488 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:27:24,494 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-01-27 20:27:24,504 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:33:42,597 [Worker-613: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 20:33:42,599 [Worker-613: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:33:42,607 [Worker-613: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:38:57,645 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 20:38:57,647 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:38:57,651 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-27 20:41:13,539 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-27 20:41:13,541 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-27 20:41:13,548 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 06:56:27,098 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 06:56:27,123 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 06:56:27,133 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:03:30,260 [Worker-700: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:03:30,263 [Worker-700: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:03:30,271 [Worker-700: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:10:40,418 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:10:40,420 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:10:40,425 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:18:47,038 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:18:47,039 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:18:47,043 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:20:56,719 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:20:56,721 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:20:56,725 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:22:04,778 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:22:04,779 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:22:04,784 [Worker-713: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:30:46,268 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:30:46,271 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:30:46,275 [Worker-708: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:31:44,767 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:31:44,769 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:31:44,773 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:35:20,563 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:35:20,566 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:35:20,571 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:37:35,592 [Worker-717: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:37:35,594 [Worker-717: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:37:35,598 [Worker-717: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:39:16,373 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:39:16,377 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:39:16,384 [Worker-714: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:41:53,489 [Worker-719: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:41:53,494 [Worker-719: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:41:53,502 [Worker-719: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:47:32,248 [Worker-714: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:47:32,252 [Worker-714: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:47:32,260 [Worker-714: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:52:02,093 [Worker-726: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:52:02,095 [Worker-726: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:52:02,099 [Worker-726: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 07:57:42,678 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 07:57:42,680 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 07:57:42,684 [Worker-729: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 11:59:21,039 [Worker-758: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 11:59:21,046 [Worker-758: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 11:59:21,059 [Worker-758: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:02:33,915 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:02:33,918 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:02:33,925 [Worker-760: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:03:48,501 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:03:48,503 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:03:48,509 [Worker-761: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:06:12,648 [Worker-764: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:06:12,650 [Worker-764: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:06:12,655 [Worker-764: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:10:54,499 [Worker-768: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:10:54,501 [Worker-768: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:10:54,508 [Worker-768: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:13:51,442 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:13:51,444 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:13:51,449 [Worker-767: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:17:42,812 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:17:42,815 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:17:42,821 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:25:06,432 [Worker-755: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:25:06,436 [Worker-755: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:25:06,441 [Worker-755: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:29:16,846 [Worker-774: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:29:16,851 [Worker-774: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:29:16,858 [Worker-774: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:31:57,256 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:31:57,258 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:31:57,263 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:33:42,073 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:33:42,076 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:33:42,081 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:34:50,874 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:34:50,878 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:34:50,885 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:36:20,590 [Worker-777: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:36:20,592 [Worker-777: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:36:20,597 [Worker-777: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:38:22,335 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:38:22,337 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:38:22,342 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:38:42,986 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:38:42,988 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:38:42,992 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:40:04,209 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:40:04,212 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:40:04,216 [Worker-772: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:41:02,723 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:41:02,725 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:41:02,729 [Worker-755: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:43:10,649 [Worker-775: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:43:10,653 [Worker-775: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:43:10,662 [Worker-775: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:47:55,249 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:47:55,251 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:47:55,255 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:48:45,394 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:48:45,397 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:48:45,402 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:50:06,389 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:50:06,391 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:50:06,395 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:51:06,702 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:51:06,704 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:51:06,708 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:52:26,601 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:52:26,604 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:52:26,609 [Worker-779: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:53:16,820 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:53:16,823 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:53:16,828 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:55:17,967 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:55:17,969 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:55:17,973 [Worker-780: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:56:04,943 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:56:04,946 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:56:04,950 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:57:23,661 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:57:23,663 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:57:23,669 [Worker-774: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:58:24,758 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:58:24,761 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:58:24,767 [Worker-781: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 12:59:12,423 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 12:59:12,425 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 12:59:12,431 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 13:03:30,188 [Worker-782: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 13:03:30,188 [Worker-782: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 13:03:30,198 [Worker-782: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 13:09:15,563 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 13:09:15,565 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 13:09:15,568 [Worker-775: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 13:13:23,969 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 13:13:23,971 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 13:13:23,976 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 13:18:07,680 [Worker-790: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 13:18:07,682 [Worker-790: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 13:18:07,686 [Worker-790: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 13:21:38,828 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 13:21:38,830 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 13:21:38,835 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 13:23:31,662 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 13:23:31,664 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 13:23:31,668 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 13:28:48,610 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 13:28:48,612 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 13:28:48,615 [Worker-784: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 15:40:12,730 [Worker-799: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 15:40:12,732 [Worker-799: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-01-28 15:40:12,737 [Worker-799: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 15:43:50,217 [Worker-793: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 15:43:50,219 [Worker-793: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 15:43:50,223 [Worker-793: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 15:46:36,923 [Worker-816: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 15:46:36,925 [Worker-816: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 15:46:36,930 [Worker-816: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 15:59:32,212 [Worker-825: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 15:59:32,216 [Worker-825: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 15:59:32,224 [Worker-825: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:01:17,990 [Worker-822: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:01:17,992 [Worker-822: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:01:17,997 [Worker-822: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:03:35,455 [Worker-827: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:03:35,457 [Worker-827: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:03:35,462 [Worker-827: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:11:07,958 [Worker-825: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:11:07,960 [Worker-825: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:11:07,965 [Worker-825: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:13:28,246 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:13:28,248 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:13:28,254 [Worker-831: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:16:59,345 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:16:59,348 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:16:59,353 [Worker-830: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:20:52,686 [Worker-832: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:20:52,691 [Worker-832: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:20:52,698 [Worker-832: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:23:27,342 [Worker-835: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:23:27,346 [Worker-835: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:23:27,354 [Worker-835: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:26:37,347 [Worker-839: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:26:37,352 [Worker-839: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:26:37,360 [Worker-839: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:29:15,789 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:29:15,796 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:29:15,808 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:30:40,453 [Worker-839: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:30:40,456 [Worker-839: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:30:40,465 [Worker-839: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 16:32:36,618 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 16:32:36,620 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 16:32:36,624 [Worker-836: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 19:42:08,398 [Worker-869: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 19:42:08,402 [Worker-869: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 19:42:08,407 [Worker-869: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 19:45:03,389 [Worker-867: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 19:45:03,393 [Worker-867: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 19:45:03,401 [Worker-867: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 19:49:14,947 [Worker-867: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 19:49:14,950 [Worker-867: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 19:49:14,955 [Worker-867: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 19:57:36,457 [Worker-873: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 19:57:36,459 [Worker-873: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 19:57:36,464 [Worker-873: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:01:04,222 [Worker-874: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:01:04,224 [Worker-874: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-01-28 20:01:04,232 [Worker-874: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:02:55,748 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:02:55,751 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:02:55,755 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:08:52,245 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:08:52,245 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:08:52,245 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:09:34,613 [Worker-875: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:09:34,614 [Worker-875: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:09:34,618 [Worker-875: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:10:32,275 [Worker-876: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:10:32,282 [Worker-876: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:10:32,286 [Worker-876: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:10:39,602 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:10:39,605 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:10:39,609 [Worker-872: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:11:23,013 [Worker-873: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:11:23,015 [Worker-873: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:11:23,019 [Worker-873: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:19:02,598 [Worker-879: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:19:02,601 [Worker-879: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:19:02,606 [Worker-879: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:22:33,066 [Worker-875: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:22:33,067 [Worker-875: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:22:33,072 [Worker-875: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:24:32,006 [Worker-882: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:24:32,009 [Worker-882: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:24:32,014 [Worker-882: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:28:03,079 [Worker-881: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:28:03,081 [Worker-881: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:28:03,086 [Worker-881: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:35:46,781 [Worker-881: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:35:46,784 [Worker-881: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:35:46,789 [Worker-881: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-28 20:39:26,135 [Worker-882: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-28 20:39:26,136 [Worker-882: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-28 20:39:26,141 [Worker-882: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-29 06:37:39,038 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:368) - Instantiated org.burningwave.core.SLF4JManagedLoggerRepository
+2025-01-29 06:37:39,069 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:369) - 
+
+	Configuration values for static components:
+
+		background-executor.all-tasks-monitoring.enabled=\
+			true
+		background-executor.all-tasks-monitoring.interval=\
+			30000
+		background-executor.all-tasks-monitoring.logger.enabled=\
+			false
+		background-executor.all-tasks-monitoring.minimum-elapsed-time-to-consider-a-task-as-probable-dead-locked=\
+			300000
+		background-executor.all-tasks-monitoring.probable-dead-locked-tasks-handling.policy=\
+			log only
+		background-executor.queued-task-executor[0].name=\
+			Low priority tasks
+		background-executor.queued-task-executor[0].priority=\
+			1
+		background-executor.queued-task-executor[1].name=\
+			Normal priority tasks
+		background-executor.queued-task-executor[1].priority=\
+			5
+		background-executor.queued-task-executor[2].name=\
+			High priority tasks
+		background-executor.queued-task-executor[2].priority=\
+			10
+		background-executor.task-creation-tracking.enabled=\
+			${background-executor.all-tasks-monitoring.enabled}
+		banner.additonal-informations=\
+			${Implementation-Title} ${Implementation-Version}
+		banner.additonal-informations.retrieve-from-manifest-file-with-implementation-title=\
+			Burningwave Core
+		banner.file=\
+			org/burningwave/banner.bwb
+		banner.hide=\
+			true
+		buffer-handler.default-allocation-mode=\
+			ByteBuffer::allocateDirect
+		buffer-handler.default-buffer-size=\
+			1024
+		group-name-for-named-elements=\
+			Burningwave
+		iterable-object-helper.default-values-separator=\
+			;
+		iterable-object-helper.parallel-iteration.applicability.default-minimum-collection-size=\
+			2
+		iterable-object-helper.parallel-iteration.applicability.max-runtime-thread-count-threshold=\
+			autodetect
+		iterable-object-helper.parallel-iteration.applicability.output-collection-enabled-types=\
+			java.util.concurrent.ConcurrentHashMap$CollectionView;\
+			java.util.Collections$SynchronizedCollection;\
+			java.util.concurrent.CopyOnWriteArrayList;\
+			java.util.concurrent.CopyOnWriteArraySet;\
+			java.util.concurrent.BlockingQueue;\
+			java.util.concurrent.ConcurrentSkipListSet;\
+			java.util.concurrent.ConcurrentSkipListMap$EntrySet;\
+			java.util.concurrent.ConcurrentSkipListMap$KeySet;\
+			java.util.concurrent.ConcurrentSkipListMap$Values;
+		jvm.driver.init=\
+			false
+		managed-logger.repository=\
+			autodetect
+		managed-logger.repository.enabled=\
+			true
+		managed-logger.repository.logging.warn.disabled-for=\
+			org.burningwave.core.assembler.ComponentContainer$ClassLoader;\
+			org.burningwave.core.classes.MemoryClassLoader;\
+			org.burningwave.core.classes.PathScannerClassLoader;
+		modules.export-all-to-all=\
+			true
+		resource-releaser.enabled=\
+			true
+		synchronizer.all-threads-monitoring.enabled=\
+			false
+		synchronizer.all-threads-monitoring.interval=\
+			90000
+		thread-supplier.default-daemon-flag-value=\
+			true
+		thread-supplier.default-thread-priority=\
+			5
+		thread-supplier.max-detached-thread-count=\
+			${thread-supplier.max-poolable-thread-count}
+		thread-supplier.max-detached-thread-count.elapsed-time-threshold-from-last-increase-for-gradual-decreasing-to-initial-value=\
+			30000
+		thread-supplier.max-detached-thread-count.increasing-step=\
+			autodetect
+		thread-supplier.max-poolable-thread-count=\
+			autodetect
+		thread-supplier.poolable-thread-request-timeout=\
+			6000
+
+
+2025-01-29 06:37:39,074 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:127) - default buffer size: 1024 bytes
+2025-01-29 06:37:39,074 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:141) - default allocation mode: ByteBuffer::allocateDirect
+2025-01-29 06:37:39,079 [main] INFO  org.burningwave.core.Cache - (Cache.java:76) - Building cache
+2025-01-29 06:37:39,130 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:443) - org.burningwave.core.assembler.StaticComponentContainer initialized in 0.3278481 seconds
+2025-01-29 06:37:41,498 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-29 06:56:18,607 [Worker-9: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-29 06:56:18,726 [Worker-9: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-01-29 06:56:18,783 [Worker-9: Launching SistemaServicosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-29 07:03:50,024 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-29 07:03:50,030 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-29 07:03:50,038 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-29 08:35:40,406 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-29 08:35:40,413 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-29 08:35:40,433 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-29 08:38:12,997 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-29 08:38:13,003 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-29 08:38:13,018 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-29 08:39:38,122 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-29 08:39:38,129 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-29 08:39:38,141 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-29 08:47:04,368 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-29 08:47:04,374 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-29 08:47:04,390 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources
+2025-01-29 08:49:27,107 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-29 08:49:27,111 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-29 08:49:27,122 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_kaspper_back_end-main\projeto_kaspper_back_end-main\sistema_servicos\sistema_servicos\src\test\resources

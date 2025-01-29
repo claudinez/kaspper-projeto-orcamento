@@ -97,7 +97,7 @@ public class Cliente {
     }
     
     public String getStatus() {
-        return cargo;
+        return status;
     }
 
     public void setStatus(String status) {

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+    
+    <!-- Adicionar a referência ao Bootstrap -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/datatables@1.11.5/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<!-- jQuery -->
+  		 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   	<!-- DataTables CSS -->
+ 		 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+	
+	
+</head>
+<body>
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4 text-primary">Lista de Clientes</h1>
+        <p class="lead text-muted">Gerencie seus clientes de forma rápida e fácil</p>
+    </div> 
+    
+     <table id="clientesTable" class="table table-bordered table-hover table-striped table-sm">
+        <thead class="table-dark border-0">
+            <tr>
+                <th class="col-1" onclick="sortTable(0)">Id</th>
+                <th class="col-2" onclick="sortTable(1)">Nome</th>
+                <th class="col-3" onclick="sortTable(2)">Sobrenome</th>
+                <th class="col-4" onclick="sortTable(3)">Email</th>
+                <th onclick="sortTable(4)">Telefone</th>
+                <th onclick="sortTable(5)">Cargo</th>
+                <th onclick="sortTable(6)">Status</th>
+                <th onclick="sortTable(7)">Data Abertura</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="cliente : ${clientes}">
+                <td th:text="${cliente.id}"></td>
+                <td th:text="${cliente.nome}"></td>
+                <td th:text="${cliente.sobrenome}"></td>
+                <td th:text="${cliente.email}"></td>
+                <td th:text="${cliente.telefone}"></td>
+                <td th:text="${cliente.cargo}"></td>
+                <td th:text="${cliente.status}"></td>
+                <td th:with="formattedDate=${#temporals.format(cliente.dataCriacao, 'dd/MM/yyyy')}"
+    				th:text="${formattedDate}"></td>
+                <td>
+                
+						<!-- Botão de Deletar com ícone -->
+						<a th:href="@{/clientes/deletar/{id}(id=${cliente.id})}" class="btn btn-sm btn-danger" aria-label="Deletar cliente">
+						    <i class="bi bi-trash"></i> Deletar
+						</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    
+    <div class="d-flex justify-content-between">
+        <!-- Botão de Voltar para Serviços -->
+        <a th:href="@{/servicos/lista}" class="btn btn-lg btn-secondary text-white">
+            <i class="bi bi-arrow-left-circle"></i> Voltar para Serviços
+        </a>
+    </div>
+</div>
+
+<script>
+$(document).ready(function () {
+    $('.table').DataTable({
+        language: {
+            url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/Portuguese-Brasil.json"
+        },
+        paging: true,
+        searching: true,
+        info: true,
+        lengthChange: true,
+        destroy: true // Garante que a tabela seja reinicializada sem erros
+    });
+});
+
+let sortDirections = {}; // Armazena o estado da ordenação para cada coluna
+
+function sortTable(columnIndex) {
+    let table = document.querySelector('.table tbody');
+    let rows = Array.from(table.rows);
+
+    // Define a ordem inicial como crescente, se não houver definição anterior
+    sortDirections[columnIndex] = !sortDirections[columnIndex];
+
+    let sortedRows = rows.sort((a, b) => {
+        let aText = a.cells[columnIndex].innerText.trim().toLowerCase();
+        let bText = b.cells[columnIndex].innerText.trim().toLowerCase();
+
+        if (!isNaN(aText) && !isNaN(bText)) {
+            return sortDirections[columnIndex] ? (aText - bText) : (bText - aText);
+        }
+
+        return sortDirections[columnIndex] ? aText.localeCompare(bText) : bText.localeCompare(aText);
+    });
+
+    sortedRows.forEach(row => table.appendChild(row));
+}
+
+</script>
+
+<script>
+
+$(document).ready(function () {
+    $('#clientesTable').DataTable({
+        language: {
+            url: "https://cdn.datatables.net/plug-ins/1.13.4/i18n/Portuguese-Brasil.json"
+        },
+        paging: true, // Ativa paginação
+        searching: true, // Ativa campo de pesquisa
+        info: true, // Exibe informações como "Mostrando X de Y entradas"
+        lengthChange: true, // Permite alterar quantidade de registros exibidos
+        destroy: true, // Evita erros ao reinicializar
+        order: [], // Remove ordenação automática inicial
+        dom: 
+            // Estrutura do layout do DataTables
+            '<"d-flex justify-content-between align-items-center mb-3"' + // Contêiner flex
+                '<"length-container"l>' + // "Show entries"
+                '<"search-container"f>' + // "Search"
+            '>' +
+            '<"row"' +
+                '<"col-12"tr>' + // Tabela
+            '>' +
+            '<"row mt-3"' + 
+                '<"col-md-6"i>' + // Informação no canto esquerdo
+                '<"col-md-6 text-end"p>' + // Paginação no canto direito
+            '>'
+    });
+});
+
+</script>
+
+<style>
+		/* Adiciona estilos para alinhar o "Show Entries" e "Search" na mesma linha */
+		.length-container, .search-container {
+		    display: flex;
+		    align-items: center;
+		    margin-bottom: 0; /* Remove margens desnecessárias */
+		}
+		
+		.d-flex {
+		    gap: 1rem; /* Espaçamento entre os elementos */
+		}
+		
+		.dataTables_filter label {
+		    margin: 0; /* Remove margens desnecessárias do rótulo de pesquisa */
+		}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

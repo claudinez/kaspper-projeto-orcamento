@@ -60,7 +60,7 @@ public class ServicoController {
         model.addAttribute("servicos", servicoRepository.findAll());
         
      // Retorna a view (a página HTML que exibirá os dados)
-        return "servicos/lista";
+        return "/servicos/lista";
     }
 
     @GetMapping("/novo")

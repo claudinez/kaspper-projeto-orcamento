@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="card shadow p-4">
+        <h2 class="text-center mb-4">Lista de Clientes</h2>
+
+        <!-- 🔍 Filtro por Status -->
+        <div class="mb-3">
+            <label for="filtroStatus" class="form-label">Filtrar por Status:</label>
+            <select class="form-select" id="filtroStatus" onchange="filtrarTabela()">
+                <option value="">Todos</option>
+                <option value="Ativo">Ativo</option>
+                <option value="Inativo">Inativo</option>
+                <option value="Pendente">Pendente</option>
+            </select>
+        </div>
+
+        <!-- 📋 Tabela Responsiva -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>Status</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="cliente : ${clientes}" class="cliente-row">
+                        <td th:text="${cliente.id}"></td>
+                        <td th:text="${cliente.nome}"></td>
+                        <td th:text="${cliente.sobrenome}"></td>
+                        <td th:text="${cliente.email}"></td>
+                        <td th:text="${cliente.telefone}"></td>
+                        <td class="status-cell" th:text="${cliente.status}"></td>
+                        <td>
+                            <div class="d-flex gap-2">
+                                <!-- ✏️ Botão Editar -->
+                                <a th:href="@{/clientes/editar/{id}(id=${cliente.id})}" class="btn btn-sm btn-warning">Editar</a>
+                                <!-- 🗑️ Botão Deletar -->
+                                <a th:href="@{/clientes/deletar/{id}(id=${cliente.id})}" class="btn btn-sm btn-danger"
+                                   onclick="return confirm('Deseja deletar este cliente?')">Deletar</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 🔄 Botões de Ação -->
+        <div class="d-flex justify-content-between mt-3">
+            <a th:href="@{/servicos/lista}" class="btn btn-secondary">Voltar para Serviços</a>
+        </div>
+    </div>
+</div>
+
+<!-- 🔍 Filtro por Status (JavaScript) -->
+<script>
+    function filtrarTabela() {
+        let filtro = document.getElementById("filtroStatus").value.toLowerCase();
+        let linhas = document.querySelectorAll(".cliente-row");
+
+        linhas.forEach(linha => {
+            let status = linha.querySelector(".status-cell").textContent.toLowerCase();
+            linha.style.display = (filtro === "" || status.includes(filtro)) ? "" : "none";
+        });
+    }
+
+    // Aplica cores nos status automaticamente
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".status-cell").forEach(cell => {
+            let status = cell.textContent.trim().toLowerCase();
+            if (status === "ativo") cell.classList.add("text-success", "fw-bold");
+            else if (status === "inativo") cell.classList.add("text-danger", "fw-bold");
+            else if (status === "pendente") cell.classList.add("text-warning", "fw-bold");
+        });
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
