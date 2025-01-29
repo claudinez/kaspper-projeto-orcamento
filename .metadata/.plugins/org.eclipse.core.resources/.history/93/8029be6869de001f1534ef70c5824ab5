@@ -4,7 +4,6 @@
     <title>Listas de Serviços</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
       <!-- Adicionar a referência ao Bootstrap -->
@@ -20,10 +19,10 @@
 </head>
 <body>
 
-    <div class="container-fluid mt-2">
+    <div class="container-fluid mt-5">
     
         <div class="text-center mb-4">
-	        <h1 class="display-6 text-primary">Lançamentos de Valores de Serviços</h1>
+	        <h1 class="display-4 text-primary">Lançamentos de Valores de Serviços</h1>
 	        <p class="lead text-muted">Gerencie os lançamentos de serviços com facilidade</p>
     	</div>
         

@@ -20,10 +20,10 @@
 </head>
 <body>
 
-    <div class="container-fluid mt-2">
+    <div class="container-fluid mt-5">
     
         <div class="text-center mb-4">
-	        <h1 class="display-6 text-primary">Lançamentos de Valores de Serviços</h1>
+	        <h1 class="display-4 text-primary">Lançamentos de Valores de Serviços</h1>
 	        <p class="lead text-muted">Gerencie os lançamentos de serviços com facilidade</p>
     	</div>
         

@@ -21,11 +21,11 @@
         <p class="lead text-muted">Gerencie seus clientes de forma rápida e fácil</p>
     </div> 
     <div class="table-responsive"> <!-- Faz a tabela rolar horizontalmente em telas pequenas --> 
-     <table id="clientesTable" class="table table-bordered table-hover table-striped table-sm">
+     <table id="clientesTable" class="table table-bordered table-hover table-striped w-auto">
         <thead class="table-dark">
             <tr>
-                <th onclick="sortTable(0)">Id</th>
-                <th onclick="sortTable(1)">Nome</th>
+                <th onclick="sortTable(0)"class="text-nowrap p-1">Id</th>
+                <th onclick="sortTable(1)"class="text-nowrap p-1">Nome</th>
                 <th onclick="sortTable(2)">Sobrenome</th>
                 <th onclick="sortTable(3)">Email</th>
                 <th onclick="sortTable(4)">Telefone</th>
@@ -37,9 +37,9 @@
         </thead>
         <tbody>
             <tr th:each="cliente : ${clientes}">
-                <td th:text="${cliente.id}"></td>
-                <td th:text="${#strings.capitalize(cliente.nome)}"></td>
-                <td th:text="${#strings.capitalize(cliente.sobrenome)}"></td>
+                <td class="p-1" th:text="${cliente.id}"></td>
+                <td class="p-1" th:text="${#strings.capitalize(cliente.nome)}"></td>
+                <td class="p-1" th:text="${#strings.capitalize(cliente.sobrenome)}"></td>
                 <td th:text="${#strings.toLowerCase(cliente.email)}"></td>
                 <td th:text="${cliente.telefone}"></td>
                 <td th:text="${#strings.capitalize(cliente.cargo)}"></td>
