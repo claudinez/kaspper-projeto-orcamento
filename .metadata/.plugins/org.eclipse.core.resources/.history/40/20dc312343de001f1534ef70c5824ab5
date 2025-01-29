@@ -65,7 +65,7 @@ public class Cliente {
     }
     
     public String getSobrenome() {
-        return sobrenome;
+        return nome;
     }
 
     public void setSobrenome(String sobrenome) {

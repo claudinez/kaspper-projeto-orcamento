@@ -40,7 +40,7 @@
                 <td th:text="${#strings.capitalize(cliente.sobrenome)}"></td>
                 <td th:text="${#strings.toLowerCase(cliente.email)}"></td>
                 <td th:text="${cliente.telefone}"></td>
-                <td th:text="${#strings.capitalize(cliente.cargo)}"></td>
+                <td th:text="${cliente.cargo}"></td>
                 <td th:text="${cliente.status}"></td>
                 <td th:with="formattedDate=${#temporals.format(cliente.dataCriacao, 'dd/MM/yyyy')}"
     				th:text="${formattedDate}"></td>

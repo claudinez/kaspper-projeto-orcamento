@@ -27,7 +27,6 @@ INDEX VERSION 1.134+C:\Users\NoteDell\Documents\Aulas\Academy Kaspper\projeto_ka
 1350958077.index
 2865840608.index
 2395298852.index
-1824606154.index
 704450639.index
 2497152314.index
 835844366.index
